@@ -27,6 +27,23 @@ github-activity-cli/
 ### 1. Clone the repository or download the script
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Usenmfon/github-activity-cli.git
 cd github-activity-cli
 
+# Using PHP directly
+php github-activity.php <github-username>
+
+# OR if executable (Unix)
+./github-activity.php <github-username>
+
+
+php github-activity.php Usenmfon
+
+## 🧾 Example Output
+
+CreateEvent in Usenmfon/task-cli-php
+CreateEvent in Usenmfon/task-cli-php
+Pushed 2 commit(s) to FutureLabss/futurelabs-studio
+PullRequestEvent in FutureLabss/futurelabs-studio
+CreateEvent in Usenmfon/finance-tracker-be
+CreateEvent in Usenmfon/finance-tracker-be
